@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Shree NagBai Dairy Farm</title>
+</head>
+<style>
+    main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #852747;
+}
+
+    .product {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #fff; /* Background color for the product frame */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    margin: 0;
+}
+
+.product p {
+    color: #666;
+}
+.h2-3{
+background-color: rgb(226, 224, 224);
+  width: 100%;
+  height: 15vh; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0); 
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #555353;
+    color: white;
+    padding: 20px;
+    padding-left: 90px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin:  0 10px;
+}
+
+.footer-section h2 {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.social-icon {
+    display: inline-block;
+    color: white;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color:white;
+}
+
+.footer-section.social a img {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.footer-section.social a:hover img {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+
+@media screen and (max-width: 390px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .footer-section {
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: -90px;
+    }
+
+    .footer-section.social {
+        margin-top: 10px;
+        
+    }
+}
+@media (max-width: 390px) {
+    .menu ul {
+        flex-direction: row;
+    }
+
+    .menu li {
+        text-align: left;
+    }
+
+    .menu a {
+        text-align: left;
+        padding: 10px;
+    }
+}
+
+</style>
+<body>
+    <header class="header">
+        <h2 style="text-align: center;">Shree NagBai Dairy Farm</h2>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="Sweet.Html">Sweets</a></li>
+            <li><a href="Farshan.Html">Farshan</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <img src="images/308990C647544049C2C5B89EAC_1661176991779.jpeg" alt="Delicious sweets banner" class="responsive-image">
+    <br>
+
+    <main class="main-content">
+        <section class="photos">
+            <img src="images/j-1.jpg" alt="Delicious sweets 1">
+            <img src="images/images-1.1.jpeg" alt="Delicious sweets 2">
+            <img src="images/images-1.2.jpeg" alt="Delicious sweets 3">
+            <img src="images/download.jpeg" alt="Delicious sweets 4">
+        </section>
+    </main>
+    <br>
+    <div class="h2-3">
+    <h2 style="text-align: center;"><b><u><i>Top 3 Sweets</i></u></b></h2>
+    </div>
+    <br>
+   
+    <main>
+        <div class="product">
+            <img src="images/Kaju Katli.jpeg" alt="kaju katri (કાજુ કતરી)">
+            <h2>kaju katri (કાજુ કતરી)</h2>
+        </div>
+        <div class="product">
+            <img src="images/Basundi.jpeg" alt="Basundi (બાસુંદી)">
+            <h2>Basundi (બાસુંદી)</h2>
+        </div>
+        <div class="product">
+            <img src="images/Penda.jpeg" alt=" Penda (પેંડા)">
+            <h2>Penda (પેંડા)</h2>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>About Us</h2>
+                    <p>We will make various milk sweets, Bengali sweets, as per order for your auspicious wedding and parties.</p>
+                    <!-- Add any additional information about your shop here -->
+                </div>
+                <div class="footer-section contact">
+                    <h2><b>Contact Us</b></h2>
+                    <p>Email: info@sweetshop.com</p>
+                    <p>Phone: 91+ 9313416350</p>
+                    <!-- Add any additional contact information here -->
+                </div>
+                    <div class="footer-section social">
+                        <h2>Follow Us</h2>
+                        <!-- Add links to your social media profiles here -->
+                        <a href="https://www.facebook.com" target="_blank"><img src="images\Footer Images\1.png" alt="Facebook"></a>
+                        <a href="" target="_"><img src="" alt=""></a>
+                        <a href="https://www.twitter.com" target="_blank"><img src="images\Footer Images\2.png" alt="Twitter"></a>
+                        <a href="" target="_"><img src="" alt=""></a>
+                        <a href="https://www.instagram.com/shri_nagbai_dairy_farm?utm_source=qr&igsh=emgwaHc5a3l4YjJq " target="_blank"><img src="images\Footer Images\3.png" alt="Instagram"></a>
+                        <!-- Add more social media icons as needed -->
+                    </div>
+                    
+                    <!-- Add links to your social media profiles here -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <br>
+              <b> &copy; 2024 Shree NagBai Dairy Farm. All Rights Reserved. </b>
+            </div>
+        </footer>
+        
+    </footer>
+    <script>
+       document.addEventListener('DOMContentLoaded', (event) => {
+    const header = document.querySelector('.header');
+    header.addEventListener('click', () => {
+        header.style.backgroundColor = header.style.backgroundColor === 'rgb(235, 108, 108)' ? 'rgb(108, 108, 235)' : 'rgb(235, 108, 108)';
+    });
+});
+
+    </script>
+</body>
+</html>
